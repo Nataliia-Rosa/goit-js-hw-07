@@ -1,0 +1,35 @@
+input {
+    border: 1px solid #611756;
+    outline: none;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #611756;
+    background-color: rgb(227, 138, 186);
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 8px 8px 0 rgba(94, 10, 10, 0.30);
+    padding: 8px 16px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-left: 400px;
+}
+
+::placeholder {
+    color:#69295f;
+}
+
+#name-output, h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #631758;
+}
